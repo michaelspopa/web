@@ -1,0 +1,178 @@
+﻿*
+{
+margin:0px; 
+padding:0px;
+-moz-box-sizing: border-box;
+box-sizing: border-box; 
+}
+body
+{
+	background-color: #00CBFD;
+	margin: 0px;
+	text-align: center;
+	color: rgb(235,235,235);
+}
+h1
+{
+  font-family: Tahoma, "Lucida Grande CE", lucida, sans-serif;
+  font-size: 130%;
+  color: #9F915A;
+  margin: 0px 0px 20px 50px;
+  _margin-top: 30px;
+  font-weight: normal;
+
+}
+h2
+{
+  color: #9F915A;
+	font-size: 120%;
+	font-family: Tahoma, "Lucida Grande CE", lucida, sans-serif;
+	    margin: 0px 0px 20px 50px;
+  _margin-top: 30px;
+  font-weight: normal;
+
+}
+p
+{
+  font-family: Tahoma, "Lucida Grande CE", lucida, sans-serif;
+  font-size: 13px;
+  color: #ffffff;
+  margin: 10px 50px 10px 50px;
+}
+img
+{
+  border: 5px solid #908E8F;
+}
+a
+{
+  color: #9F915A;
+ text-decoration: underline;
+}
+a:hover
+{
+  text-decoration: none;
+}
+#all
+{
+  width: 974px;
+	text-align: left;
+	margin: 0px auto;
+}
+#image
+{
+	background-image: url(../images/image.jpg);
+	background-color: #5C5C5C;
+	background-repeat: no-repeat;
+  width: 974px;
+  clear: both;
+  height: 288px;
+}
+.logo
+{
+margin: 0px 0px 0px 0px;
+float: left;
+}
+h1.logo {
+  width: 491px;
+  height: 73px;
+  background: url('../images/logo.jpg') no-repeat;
+}
+h1 a {
+	color: rgb(255,255,255);
+	text-decoration: underline;
+	line-height: 72px;
+	text-align:left;
+	display: block;
+	width: 400px;
+  height: 73px;
+  text-align: left;
+  padding-left: 40px;
+  text-decoration: none;
+  font-size: 170%;
+}
+
+h1 a:hover {
+	color: rgb(213,213,213);
+	text-decoration: none;
+}
+
+
+#menu 
+{ 
+margin-top: 0px;
+margin-right: 2px;
+float: left;
+} 
+ul, li 
+{ 
+margin: 0px; 
+padding: 0px; 
+} 
+
+ul#menu 
+{ 
+  font-size: 15px; 
+  font-family: Tahoma, "Lucida Grande CE", lucida, sans-serif;
+}  
+
+ul#menu li
+{ 
+float: left; 
+margin-right: 0px; 
+list-style-type: none; 
+} 
+
+ul#menu li a 
+{ 
+display: block; 
+
+text-align: center; 
+	/*background-image: url(../images/menu.jpg);*/
+	background-color: #00CBFD;
+  background-repeat: no-repeat;
+  width: 119px;
+  height: 73px;
+  color: white;
+  border-bottom: 1px solid #393939;
+  text-decoration: none; 
+  overflow:hidden;
+} 
+
+ul#menu li a:hover 
+{ 
+	/*background-image: url(../images/menu_hover.jpg);*/
+  text-decoration: none;
+  width: 119px;
+  height: 73px;
+  overflow:visible;
+}
+#contain
+{
+	/*background-image: url(../images/pozadie.jpg);*/
+  background-color:white;
+  width: 972px;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  margin-right: 1px;  
+  color: black;
+  
+}
+#contain p {
+  line-height: 170%;  
+  color: black;
+}
+
+.categ {
+float: left;
+margin: 4px;
+width:160px;
+border: 1px solid;
+}
+
+select {
+border: 1px solid;
+float: right;
+}
+label {
+padding-right:10px;
+}

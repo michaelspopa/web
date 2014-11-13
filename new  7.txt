@@ -1,0 +1,11 @@
+if (isset($_POST['select'])) {
+    $col = $_POST['select'];
+    if ($denumirepr == 'Aloe Vera Gel') {
+        $query = "INSERT INTO comenzi VALUES($col)";
+    }
+    else if ($col == 'Forever Bee Pollen') {
+        $query = "INSERT INTO comenzi VALUES($denumirepr)";
+    }
+    else if ($col =='Aloe Berry Nectar') {
+        $query = "INSERT INTO comenzi VALUES($denumirepr)";
+    }

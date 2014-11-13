@@ -1,0 +1,24 @@
+<html>
+<head>
+
+
+<script>
+function getSelectedValue()
+{
+var e = document.getElementById("idMarca").value;
+document.getElementById("hidden").setAttribute("value", "sa");
+alert(e.toString());
+}
+
+</script>
+</head>
+<body>
+<select name="marca" id="idMarca" onchange="getSelectedValue()">
+							<option value="">sa</option>
+							<option value="">fe</option>
+							<option value="">uyt</option>
+							</select>
+							<input id="hidden" name="default"></div>
+</body>
+
+</html>
